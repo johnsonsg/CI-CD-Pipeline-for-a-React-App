@@ -48,4 +48,6 @@ Build a CI/CD Pipeline for a React App | AWS CodePipeline Full Tutorial
   * Next Page go to the bottom and click on 'Create Code pipeline'
 
 ### Pipeline Created!!!
-  *
+* Note: Build will fail.  We need to go back to code editor and configure this.
+
+* Create file: buildspec.yml

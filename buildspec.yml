@@ -4,12 +4,12 @@ phases:
   install:
     commands:
       - echo Installing Node 18...
-      - curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\
-      - sudo apt-get install -y nodejs
+      - curl -fsSL https://deb.nodesource.com/setup_18.x | -E bash - &&\
+      - apt-get install -y nodejs
       - echo Installing Yarn...
-      - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-      - echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-      - sudo apt update && sudo apt install yarn
+      - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+      - echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+      - apt update && apt install yarn
   pre_build:
     commands:
       - echo Installing dependencies...

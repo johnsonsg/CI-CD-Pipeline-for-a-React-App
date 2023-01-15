@@ -40,12 +40,8 @@ Build a CI/CD Pipeline for a React App | AWS CodePipeline Full Tutorial
   * Go back to Deploy Stage
 
 ### Deploy Stage Continue...
-  * Select the new bucket you just created.
-  * S3 object key means: once you deploy, by default codebuild will produce a zip file and this zip file will be sent to Amazon S3. However I don't want it to be a zip file so
-  * Check: Extract file before deploy
-  * So doing this, we don't need to specifiy a Deployment path because we are going to extract it at the root of the S3 bucket. That way we can see it directly.
-  * Click Next.
-  * Next Page go to the bottom and click on 'Create Code pipeline'
+  * Great YouTube I found on how to set up
+  * https://www.youtube.com/watch?v=yJe4ynOBzXA
 
 ### Pipeline Created!!!
 * Note: Build will fail.  We need to go back to code editor and configure this.

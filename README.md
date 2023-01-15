@@ -2,7 +2,7 @@
 Build a CI/CD Pipeline for a React App | AWS CodePipeline Full Tutorial
 
 * Testing commit to github.
-* We will
+* Tutorial on basic CICD - https://youtu.be/Mgs7jl430vs
 
 ## Steps and commands
   * If you cloned this repo, please remember to install node_modeles: yarn install

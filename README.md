@@ -1,6 +1,5 @@
 # CI-CD-Pipeline-for-a-React-App
 Build a CI/CD Pipeline for a React App | AWS CodePipeline Full Tutorial
-
 ## Link to:
  - http://cicd-pipeline-react-demo.s3-website-us-east-1.amazonaws.com/
 ## Setup AWS
@@ -15,6 +14,9 @@ Build a CI/CD Pipeline for a React App | AWS CodePipeline Full Tutorial
   * Give it a name that matches to what you are doing ex: aws-codepipeline-boilerplate
   * Then create bucket!
   * Go back to Deploy Stage
+
+## buildspec.yml config Specs using Amazon Linux
+
 
 
 

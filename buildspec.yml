@@ -3,9 +3,11 @@ version: 0.2
 phases:
   pre_build:
     commands:
+      - echo Installing dependencies...
       - yarn install
   build:
     commands:
+      - echo Building...
       - yarn run build
 
 artifacts:
